@@ -1,4 +1,4 @@
-let postInfos = 'https://localhost:7237/proposta';
+let postInfos = 'https://geracao-de-proposta-backend.onrender.com/proposta';
 
 let selectPlaca = document.getElementById('PlacaCliente');
 let inputDePlaca = document.getElementById('PlacaInput');
