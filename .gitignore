@@ -1,0 +1,13 @@
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE e Editores de Código
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Quaisquer logs ou arquivos de cache que você possa gerar
+*.log
+.cache/
