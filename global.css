@@ -10,8 +10,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #3ab6b0 0%, #aa47a3 100%);
-    color: #01988F;
+    background: linear-gradient(135deg, #020495 0%, #005DC7 50%, #0466d6 100%);
+    color: #115CCB;
     line-height: 1.6;
     min-height: 100vh;
 }
@@ -69,7 +69,7 @@ div {
 label {
     display: block;
     font-size: 1.2rem;
-    color: #aa47a3;
+    color: #0759c5;
     margin-bottom: 0.15rem;
     transition: color 0.3s ease;
 }
@@ -78,24 +78,24 @@ input {
     width: 100%;
     padding: .4rem 1rem;
     font-size: clamp(1.2rem, 2.5vw, 1rem);
-    border-color: #a1579c;
-    color: #018077;
+    border-color: #0759c5;
+    color: #389c76;
     border-style: solid;
     border-width: .12rem;
     border-radius: 6px;
     margin-bottom: 0.7rem;
-    box-shadow: 0 2px 12px #d8c1d6;
+    box-shadow: 0 2px 12px #c3c1d8;
 }
 
 input:focus,
 select:focus {
-    border-color: #aa47a3;
+    border-color: #c98805;
     box-shadow: 0 4px 16px rgba(170, 71, 163, 0.2);
     transform: translateY(-1px);
 }
 
 input::placeholder {
-    color: #aa47a3;
+    color: #389c76;
     opacity: 0.6;
     transition: opacity 0.3s ease;
 }
@@ -107,15 +107,15 @@ input:focus::placeholder {
 select {
     font-size: clamp(1.2rem, 2.5vw, 1rem);
     padding: .1rem 1rem;
-    border-color: #a1579c;
+    border-color: #0759c5;
     width: 100%;
     height: 2.25rem;
     border-style: solid;
     border-width: .12rem;
     border-radius: 5px;
     margin-bottom: 0.7rem;
-    box-shadow: 0 2px 12px #d8c1d6;
-    color: #01988F;
+    box-shadow: 0 2px 12px #c3c1d8;
+    color: #389c76;
 }
 
 button {
@@ -126,7 +126,7 @@ button {
     font-size: clamp(1.2rem, 2.5vw, 1rem);
     letter-spacing: 0.5px;
     padding: 0.75rem 2rem;
-    background: linear-gradient(135deg, #208386 0%, #c556be 100%);
+    background: linear-gradient(135deg, #00BE80 0%, #115CCB 50%, #FF9C00 100%);
     color: #fff;
     border: none;
     box-shadow: 0 4px 16px #c9a1c5;
@@ -136,7 +136,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(135deg, #922f8c 0%, #0d5b5e 100%);
+    background: linear-gradient(135deg, #ad7205 0%, #01436e 50%,  #2f7a5d 100%);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px #ad84a9;
 }
@@ -159,7 +159,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #aa47a3 0%, #792263 100%);
+    background: linear-gradient(135deg, #00BE80 0%, #115CCB 50%, #FF9C00 100%);
     color: #fff;
     width: 100%;
     padding: 2rem;
